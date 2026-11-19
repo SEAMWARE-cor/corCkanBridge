@@ -169,7 +169,7 @@ taking 0.96 s (a debug build, on 2026-10-09).
 
 ## Further reading
 
-- [corBridge](https://github.com/SEAMWARE/corBridge) - the contract; every entry point is documented
+- [corBridge](https://github.com/SEAMWARE-cor/corBridge) - the contract; every entry point is documented
   in `BridgeDriver.h` and `BridgeBroker.h`
 - coraine: [Bridges and Channels](https://github.com/SEAMWARE/coraine/blob/main/doc/bridge-channels.md),
   [the full reference](https://github.com/SEAMWARE/coraine/blob/main/doc/bridge-channels-details.md)
