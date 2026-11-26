@@ -93,7 +93,7 @@ mockRequests() {
 brokerStart() {
   brokerStop
 
-  "$CKAN_BROKER" --port "$CKAN_PORT" --foreground --pretty-print 2 --httpEndpoint "http://localhost:$CKAN_PORT" \
+  "$CKAN_BROKER" --port "$CKAN_PORT" --pretty-print 2 --httpEndpoint "http://localhost:$CKAN_PORT" \
                  --database ramDB --bridges "$CKAN_PLUGIN" --bridgeConfig "$CKAN_TEST_DIR/bridges.json" "$@" \
                  > "$CKAN_TEST_DIR/broker.log" 2>&1 &
   echo $! > "$CKAN_TEST_DIR/broker.pid"
